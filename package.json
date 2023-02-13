@@ -1,0 +1,17 @@
+{
+  "name": "ddd-sample-js",
+  "version": "1.0.0",
+  "description": "DDD Sample JavaScript",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "app": "node src/ddd_bootcamp/application/Application.js",
+    "test": "mocha test/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
